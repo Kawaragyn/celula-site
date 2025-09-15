@@ -1,2 +1,41 @@
 @media (max-width: 600px) {
 }
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background: url("../images/human-cells-embryonic-stem-cell-microscope_90099-11119.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    background: black;
+    opacity: 0.8;
+}
+
+.link-list {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.link:hover {
+    border-bottom: 5px solid lightblue;
+}
