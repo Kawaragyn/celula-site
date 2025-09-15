@@ -11,7 +11,7 @@ body{
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 7px;
     background: black;
@@ -72,8 +72,9 @@ h1 {
     border-bottom: 5px solid lightblue;
 }
 
-.btn-voltar {
-    display: inline-flex;
+.btn {
+    display: flex;
+    justify-content: center;
     padding: 10px 20px;
     background: #150cc5;
     color: #ffffff;
@@ -83,7 +84,32 @@ h1 {
     
 }
 
-.btn-voltar:hover {
+.btn:hover {
     opacity: 1;
     background: #6ea7ed;
+}
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.8;
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    margin: 0;
+    width: 50px;
+    height: 18px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-voltar:hover {
+    opacity: 0.8;
+    background: lightblue;
+    color: black;
 }

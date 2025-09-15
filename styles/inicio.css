@@ -37,6 +37,7 @@ body{
     background: lightblue;
     color: black;
 }
+
 h1{
     margin-top: 23vh;
     text-align: center;
@@ -62,9 +63,9 @@ h2{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 7px;
+    padding: 5px;
     background: black;
     opacity: 0.8;
 }
