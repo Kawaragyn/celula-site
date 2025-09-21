@@ -2,20 +2,38 @@
 }
 
 body{
-    background: url("../images/fundoazul.jpg");
+    background: url("../images/abstract-blue-background-free-vector.jpg");
     background-size: cover;
     margin: 0;
     padding: 0;
 }
 
-
 .navbar {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7px;
+    padding: 5px;
     background: black;
     opacity: 0.8;
+}
+
+.link-list {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 5vh;
+    margin: 8vh;
+    font-weight: bold;
+}
+
+.link:hover {
+    border-bottom: 5px solid lightblue;
 }
 
 .container {
@@ -25,6 +43,7 @@ body{
     max-width: 800px;
     margin: 50px auto 0 auto;
     margin-bottom: 10vh;
+    padding-bottom: 5vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -54,34 +73,19 @@ h1 {
     padding: 5px;
 }
 
-
-.link-list {
-    display: flex;
-    list-style: none;
-}
-
-.link {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 30px;
-    margin: 50px;
-    font-weight: bold;
-}
-
-.link:hover {
-    border-bottom: 5px solid lightblue;
+.btn-est {
+    text-align: center;
 }
 
 .btn {
-    display: flex;
-    justify-content: center;
+    display: inline;
     padding: 10px 20px;
     background: #150cc5;
     color: #ffffff;
-    border-radius: 8px;
+    border-radius: 18px;
     text-decoration: none;
     font-size:3vh;
-    
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -90,26 +94,27 @@ h1 {
 }
 
 .btn-voltar {
-    display: inline-block;
+    position: absolute;
+    right: 3vh;
     padding: 10px 20px;
-    background: #ffffff;
+    background-color: #ffffff;
     color: #000000;
     border-radius: 8px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 5vh;
     opacity: 0.8;
-    position: absolute;
-    top: 16px;
-    right: 24px;
-    margin: 0;
-    width: 50px;
-    height: 18px;
-    font-size: 20px;
-    text-align: center;
+    padding: 0px 10px;
 }
 
 .btn-voltar:hover {
     opacity: 0.8;
     background: lightblue;
     color: black;
+}
+
+.center{
+    text-align: center;
+    font-size: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
