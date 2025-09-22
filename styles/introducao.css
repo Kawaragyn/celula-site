@@ -1,9 +1,8 @@
-@media (max-width: 600px) {
-}
 
 body{
     background: url("../images/abstract-blue-background-free-vector.jpg");
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -40,7 +39,7 @@ body{
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px 20px;
     border-radius: 10px;
-    max-width: 800px;
+    width: 55%;
     margin: 50px auto 0 auto;
     margin-bottom: 10vh;
     padding-bottom: 5vh;

@@ -1,15 +1,43 @@
-@media (max-width: 600px) {
-}
-
 body{
     background: url("../images/human-cells-embryonic-stem-cell-microscope_90099-11119.jpg");
-    background-size: cover;
+    background-size: cover; 
+    background-attachment: fixed; 
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: black;
+    opacity: 0.8;
+}
+
+.link-list {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 5vh;
+    margin: 8vh;
+    font-weight: bold;
+}
+
+.link:hover {
+    border-bottom: 5px solid lightblue;
 }
 
 .btn-voltar {
-    position: absolute;
+    display: flex;
+    list-style: none;
     right: 3vh;
     padding: 10px 20px;
     background-color: #ffffff;
@@ -48,43 +76,6 @@ h2{
     font-weight: bold;
 }
 
-.navbar {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    background: black;
-    opacity: 0.8;
-}
-
-.link-list {
-    display: flex;
-    list-style: none;
-}
-
-.link {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 5vh;
-    margin: 8vh;
-    font-weight: bold;
-}
-
-.link:hover {
-    border-bottom: 5px solid lightblue;
-}
-
-.footer-text {
-    background-color: rgba(37, 39, 38, 0.637);
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 20px;
-    margin: 0;
-}
 
 .btn-comece{
     text-align: center;
@@ -99,4 +90,42 @@ h2{
     font-size: 10vh;
     text-decoration: none;
     padding: 10px 20px;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 15vh;
+        margin-top: 17vh;
+    }
+
+    h2 {
+        font-size: 5vh;
+        margin-top: -15vh;
+        padding: 0;
+    }
+
+    .btn-voltar {
+        right: 3vh;
+        top: auto;
+        font-size: 5vh;
+    }
+
+    .link-list {
+        flex-direction: row; /* Volta para a linha em telas maiores */
+        padding: 0 20px;
+    }
+
+    .link {
+        font-size: 5vh;
+        margin: 8vh;
+    }
+    
+    .btn-comece {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        font-size: 10vh;
+    }
 }
