@@ -1,16 +1,3 @@
-@media (max-width: 600px) {
-  .idiomas-container {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .bandeira {
-    width: 120px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-}
-
 body {
   background: url('images/abstract-background-bokeh-circle-light-blue-abstract-blue-effect-background-light-blue-abstract-background-free-photo.jpg');
   background-size: cover;
@@ -20,7 +7,7 @@ body {
 h1{
   font-size: 15vh;
   font-weight: bold;
-  margin-top: 9vh;
+  margin-top: 5%;
   margin-bottom: 0px;
   text-align: center;
   color: #083177f8;
@@ -31,14 +18,14 @@ h1{
   text-align: center;
   font-size: 6vh;
   color: #043c9cf8;
-  margin: 2px 0; /* Espaçamento bem pequeno entre os idiomas */
+  margin: 2px 0; 
 }
 
 
 .idiomas-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .idioma {
@@ -49,7 +36,6 @@ h1{
 
 .bandeira {
   height: 250px;
-  width: 375px;
   margin-top: 10vh;
   border: 4px solid rgb(255, 255, 255);
   border-radius: 20px;
@@ -58,5 +44,6 @@ h1{
 }
 
 .bandeira:hover {
-  box-shadow: 0 0 40px #030752, 0 0 10px #fff;
+    box-shadow: 0 0 40px #030752, 0 0 10px #fff;
 }
+
